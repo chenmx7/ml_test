@@ -1,0 +1,19 @@
+# Python 缓存
+__pycache__/
+*.py[cod]
+
+# 数据集与模型权重（按需添加后缀）
+data/
+datasets/
+*.csv
+*.xlsx
+*.h5
+*.pth
+*.ckpt
+
+# Jupyter Notebook 检查点
+.ipynb_checkpoints/
+
+# IDE 配置
+.idea/
+.vscode/
