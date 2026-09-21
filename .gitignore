@@ -1,19 +1,18 @@
-# Python 缓存
-__pycache__/
-*.py[cod]
-
-# 数据集与模型权重（按需添加后缀）
+# 数据集与模型权重
 data/
 datasets/
-*.csv
-*.xlsx
-*.h5
 *.pth
+*.pt
+*.h5
+*.onnx
 *.ckpt
+*.safetensors
 
-# Jupyter Notebook 检查点
-.ipynb_checkpoints/
+# Python 虚拟环境
+.venv/
+env/
+venv/
 
-# IDE 配置
-.idea/
-.vscode/
+# 缓存
+__pycache__/
+*.py[cod]
